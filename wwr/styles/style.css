@@ -34,6 +34,7 @@ nav a:hover {
     background-color: #0b5e8a;
     color: white;
     text-decoration: none;
+    font-size: 18px;
 }
 .book:hover, .join:hover {
     background-color: white;
@@ -45,18 +46,23 @@ nav a:hover {
 footer {
     background-color: #0b5e8a;
     color: white;
+    text-align: center;
 }
 .home-title {
     color: white;
+    font-size: 3.5em;
 }
 h4 {
     color: white;
+    font-size: 1.5em;
 }
 .msg h2 {
     color: white;
+    font-size: 2.2em;
 }
 .msg p {
     color: white;
+    font-size: 24px;
 }
 footer a {
     color: white;
