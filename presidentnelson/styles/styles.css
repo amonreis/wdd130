@@ -1,21 +1,45 @@
 
 body {
-    background-color: gray;
+    background-color: skyblue;
 }
 
-header h1 {
+h1 {
     color: white;
-    text-align: center;
-    font-size: 24px;
-}
-.quote {
-    color: blue;
+    font-size: 3em;
     text-align: center;
 }
 
-main img {
-    width: 80%;
+h2 {
+    color: white;
+    font-size: 1em;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.quotation {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.docofchrist {
+    margin-left: 40%;
+}
+
+img {
+    width: 20%;
     display: block;
     margin: 0 auto;
-    border: 4px solid steelblue;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-align: center;
 }
