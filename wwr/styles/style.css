@@ -1,11 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Salsa&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
+#logo_link {
+    padding-top: 5px;
+}
 nav a {
     text-align: center;
-    color: white;
+    color: #0b5e8a;
     text-decoration: none;
+    padding: 35px;
+    border-radius: 5px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -18,39 +25,55 @@ main section {
 }
 #background {
     height: 725px;
-    background-color: #999;
+    background-color: white;
 }
 body {
     background-color: #0b5e8a;
+    font-family: Roboto, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 header {
-    background-color: #0b5e8a;
+    background-color: white;
 }
 nav a:hover {
-    background-color: white;
-    color: #0b5e8a;
-}
-.book, .join {
     background-color: #0b5e8a;
     color: white;
-    text-decoration: none;
-    font-size: 18px;
 }
-.book:hover, .join:hover {
+.book, .join {
     background-color: white;
     color: #0b5e8a;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.book:hover {
+    background-color: #0b5e8a;
+    color: white;
+    border: 5px solid white;
+}
+.join:hover {
+    background-color: #0b5e8a;
+    color: white;
 }
 .msg {
-    background-color: #0b5e8a;
+    padding: 35px;
+    background-color: #949188;
 }
 footer {
     background-color: #0b5e8a;
     color: white;
-    text-align: center;
+    text-align: left;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title {
     color: white;
     font-size: 3.5em;
+    font-family: Salsa, Tahoma, Verdana, sans-serif;
+    margin-top: 10px;
 }
 h4 {
     color: white;
@@ -59,10 +82,13 @@ h4 {
 .msg h2 {
     color: white;
     font-size: 2.2em;
+    font-family: Salsa, Tahoma, Verdana, sans-serif;
 }
 .msg p {
     color: white;
     font-size: 24px;
+    line-height: 1.5em;
+    padding-bottom: 15px;
 }
 footer a {
     color: white;
@@ -74,12 +100,14 @@ footer a:hover {
 }
 h2 {
     color: white;
+    margin: 0;
 }
 #hero-img {
     width: 100%;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 footer p {
     font-size: 1.2em;
@@ -91,4 +119,17 @@ footer p a:hover {
 }
 .logo {
     width: 80px;
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 8px solid white;
+}
+main section img {
+    box-sizing: border-box;
 }
