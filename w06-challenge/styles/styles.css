@@ -1,0 +1,35 @@
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    /* background-color: white; */
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+h1 {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: 1;
+    align-self: center;
+    text-align: center;
+    font-size: 80px;
+}
+img {
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+div {
+    grid-column: 2/4;
+    grid-row: 1/3;
+    background-color: gray;
+}
+p {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    z-index: 1;
+
+}
