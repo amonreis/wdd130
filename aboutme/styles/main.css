@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Salsa&display=swap');
+
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.box {
+    box-shadow: 5px 5px 10px black;
+}
+
+.home-title {
+    font-size: 3.5em;
+    font-family: Salsa, Tahoma, Verdana, sans-serif;
+    margin-top: 10px;
+}
+
+.name {
+    font-family: Salsa, Tahoma, Verdana, sans-serif;
+}
