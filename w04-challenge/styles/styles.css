@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    background-color: pink;
+}
+header {
+    color: white;
+}
+h3 {
+    color: black;
+    margin-left: 35%;
+    text-align: left;
+}
+img {
+    width: 10%;
+}
+main p {
+    color: white;
+    font-size: 24px;
+}
+footer {
+    color: black;
+}
+.title:hover {
+    color: black;
+}
