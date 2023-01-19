@@ -16,6 +16,7 @@ a {
     color: white;
     margin: 40px;
     padding: 25px;
+    text-decoration: none;
     
 }
 
@@ -65,4 +66,8 @@ a:hover {
 
 body {
     background-color: white;
+}
+
+h1:hover {
+    color: navy;
 }

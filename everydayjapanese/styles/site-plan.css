@@ -6,9 +6,9 @@ Fonts are separated by a | */
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #B31E23   ;
-  --secondary-color: #000000 ;
+  --secondary-color: #FFFFFF ;
   --accent1-color: #D9D9D9;
-  --accent2-color: #FFFFFF;
+  --accent2-color: #000000;
 
   /* change the values below to your chosen font(s) */
   --heading-font: Salsa;
@@ -92,6 +92,7 @@ p {
 }
 .accent2{
   background-color: var(--accent2-color);
+  color: white;
 }
 
 p.colored {

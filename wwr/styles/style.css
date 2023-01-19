@@ -1,14 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Salsa&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+#hero-img {
+    width: 100%;
+}
+#background {
+    background-color: white;
+    height: 725px;
+}
+#logo_link {
+    padding-top: 5px;
 }
 nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
-#hero-msg h1, #hero-msg h4 {
-    text-align: center;
+nav a:hover {
+    background-color: white;
+    color: #0b5e8a;
 }
 .button-box {
     text-align: center;
@@ -16,47 +33,56 @@ nav a {
 main section {
     text-align: center;
 }
-#background {
-    height: 725px;
+main section img {
+    box-sizing: border-box;
 }
 body {
     background-color: #0b5e8a;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 22px;
 }
 header {
-background-color: #949188;
-
-}
-nav a:hover {
-background-color: white;
-color: #0b5e8a;
-text-decoration: none;
+    background-color: #949188;
 }
 .book, .join {
-background-color: white;
-color: #0b5e8a;
-text-decoration: none;
+    background-color: white;
+    color: #0b5e8a;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
-.book:hover, .join:hover {
-background-color: #0b5e8a;
-color: white;
-text-decoration: none;
+.book:hover {
+    background-color: #0b5e8a;
+    color: white;
+    border: 3px solid white;
 }
-#background {
-background-color: white;
-}
-.msg {
-background-color: #949188;
-color: white;
-}
-footer {
-background-color: #949188;
-
+.join:hover {
+    background-color: #0b5e8a;
+    color: white;
 }
 .home-title {
     color: white;
+    font-family: Salsa, Tahoma, Verdana, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: white;
+    font-size: 1em;
+}
+h2 {
+    color: white;
+    margin: 0;
+}
+footer {
+    background-color: #949188;
+    padding: 25px 50px;
+    margin-top: 200px;
+    font-size: 20px;
 }
 footer a {
     color: white;
@@ -66,15 +92,36 @@ footer a:hover {
     color: #0b5e8a;
     text-decoration: underline;
 }
+footer .social img {
+    padding-top: 15px;
+}
+/*footer p {
+    font-size: 1.2em;
+}*/
 .logo {
     width: 80px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
-#hero-img {
-    width: 100%;
+.msg {
+    background-color: #949188;
+    color: white;
+    line-height: 1.5em;
+    padding: 35px;
 }
-footer p {
-    font-size: 1.2em;
+.msg h2 {
+    font-family: Salsa, Tahoma, Verdana, sans-serif;
+    font-size: 2em;
+}
+.msg p {
+    font-size: 1em;
+    padding-bottom: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 8px solid white;
 }
