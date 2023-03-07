@@ -317,15 +317,17 @@ footer .social img {
     color: #003262;
     margin: 100px auto;
 }
-.river h2 {
+.br-rivers {
     font-family: Salsa, Tahoma, Verdana, sans-serif;
+    color: #003262;
+    margin-top: 50px;
 }
 .river-text {
     padding: 3em;
 }
-
 .rafting-hero {
-    margin: auto 160px;
+    display: block;
+    margin: 0 auto;
 }
 .book-now {
     background-color: #003262;
@@ -382,4 +384,5 @@ footer .social img {
     footer {
         margin-top: 25px;
     }
+
 }
