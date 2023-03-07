@@ -6,25 +6,25 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #0b5e8a   ;
-  --secondary-color: #51872D ;
-  --accent1-color: #f0d120;
-  --accent2-color: #ffffff;
+  --primary-color: #003262   ;
+  --secondary-color: #F5F5F5 ;
+  --accent1-color: #949188;
+  --accent2-color: #000000;
 
   /* change the values below to your chosen font(s) */
   --heading-font: Salsa;
   --paragraph-font: Roboto, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #0b5e8a;  /* headlines on a white background */ 
-  --headline-color-on-color: #ffffff; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #0b5e8a; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #ffffff; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #0b5e8a  ;
-  --nav-link-color: #ffffff;
-  --nav-background-color: #51872D;
-  --nav-hover-link-color: #ffffff;
-  --nav-hover-background-color: #0b5e8a;
+  --headline-color-on-white: #003262;  /* headlines on a white background */ 
+  --headline-color-on-color: #F5F5F5; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #003262; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #F5F5F5; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #003262  ;
+  --nav-link-color: #F5F5F5;
+  --nav-background-color: #949188;
+  --nav-hover-link-color: #F5F5F5;
+  --nav-hover-background-color: #003262;
 }
 
 
@@ -92,6 +92,7 @@ p {
 }
 .accent2{
   background-color: var(--accent2-color);
+  color: #F5F5F5;
 }
 p.colored {
   background-color: var(--paragraph-background-color);
