@@ -1,0 +1,411 @@
+  @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Condensed&display=swap');
+
+
+
+#logo-link {
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 150px auto;
+  background-color: #D9D9D9;
+}
+
+.logo {
+  width: 175px;
+  margin-left: 80px;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-title {
+  color: #D12C23;
+  font-size: 3rem;
+  /*font-family: Oswald, Tahoma, Verdana, sans-serif;*/
+}
+
+.hero-p {
+  font-size: 1.5rem;
+}
+
+#hero-msg {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 80px auto;
+}
+
+.home-text {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.1rem;
+  margin: 80px auto;
+}
+
+h2 {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(209,44,35,0.9220938375350141) 10%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 2rem;
+  margin: 80px 80px;
+}
+
+.n5-vocab, .n4-vocab, .n5-grammar, .n4-grammar, .n5-kanji, .n4-kanji {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.learn-vocabulary::after, .learn-grammar::after, .learn-kanji::after {
+  content: "";
+  clear: both;
+  display: table;
+  box-sizing: border-box;
+}
+
+footer {
+  margin-top: 150px;
+  width: 100%;
+  padding: 100px 15%;
+  background-color: #D9D9D9;
+  color: black;
+  display: flex; 
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+footer div {
+  text-align: center;
+  box-sizing: border-box;
+
+}
+
+.col-2 {
+  flex-grow: 2;
+  box-sizing: border-box;
+}
+
+footer div h3 {
+  font-weight: 400;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+}
+
+.col-1 a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+  text-align: left;
+  
+}
+
+.col-1 a:hover {
+  color: #D12C23;
+}
+
+form input {
+  width: 400px;
+  height: 45px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+}
+
+form button {
+  background: transparent;
+  border: 2px solid #000;
+  color: #000;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+form button:hover {
+  color: #04AA6D;
+  border: 2px solid #04AA6D;
+}
+
+.social-icons {
+  box-sizing: border-box;
+}
+
+.social-icons i {
+  font-size: 28px;
+  margin: 10px;
+  cursor: pointer;
+  color: white;
+  box-sizing: border-box;
+}
+
+.fa-facebook-f:hover {
+  color: #1d1096;
+}
+.fa-instagram:hover {
+  color: #96105c;
+}
+.fa-twitter:hover {
+  color: #108996;
+}
+
+.fa-torii-gate {
+  margin-top: 30px;
+  font-size: 45px;
+}
+.fa-torii-gate:hover {
+  color: #ff0000;
+}
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  font-size: 26px;
+  color: black;
+  text-align: center;
+  padding: 35px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown-n5 {
+  /*float: left;*/
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown-n5 .drop-n5 {
+  font-size: 26px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 20px 22px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0 auto; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown-n5:hover .drop-n5 {
+  background-color: #D12C23;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content-n5 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content-n5 a {
+  /*float: none;*/
+  color: black;
+  padding: 12px 16px;
+  font-size: 22px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content-n5 a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown-n5:hover .dropdown-content-n5 {
+  display: block;
+}
+
+/* The dropdown container */
+.dropdown-n4 {
+  /*float: left;*/
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown-n4 .drop-n4 {
+  font-size: 26px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 20px 22px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.dropdown-n4:hover .drop-n4 {
+  background-color: #D12C23;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content-n4 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content-n4 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content-n4 a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown-n4:hover .dropdown-content-n4 {
+  display: block;
+}
+/* Remove the background color from the logo link*/
+#logo-link:hover {
+  background-color: none;
+}
+
+
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  box-sizing: border-box;
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  box-sizing: border-box;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  box-sizing: border-box;
+}
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+  box-sizing: border-box;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  box-sizing: border-box;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  box-sizing: border-box;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+  box-sizing: border-box;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  box-sizing: border-box;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+  box-sizing: border-box;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+  box-sizing: border-box;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+  box-sizing: border-box;
+}
+
+.row {
+  width: 60%;
+  margin: 0 auto;
+}
+

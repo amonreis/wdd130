@@ -5,23 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Japanese Kanji | N5</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/9fd415c978.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <!-- Logo link that redirects to the home page -->
-        <a id="logo-link" href="index.html">Everyday 日本語
-            <img class="logo" src="images/everyday-japaneselogo.png" alt="Everyday Japanese Logo">
+        <a id="logo-link" href="index.html">
+            <img class="logo" src="images/logo-name.png" alt="Everyday Japanese Logo">
         </a>
         <!-- Dropdown Navagation Bar -->
         <div class="navbar">
             <a href="index.html">Home</a>
-            <div class="dropdown">
+            <div class="dropdown-n5">
                 <button class="drop-n5">N5</button>
                 <div class="dropdown-content-n5">
                     <a href="n5-vocabulary-list.html">N5 Vocabulary List</a>
                     <a href="n5-grammar-list.html">N5 Grammar List</a>
                     <a href="n5-kanji-list.html">N5 Kanji List</a>
                 </div>
+            </div>
+            <div class="dropdown-n4">
                 <button class="drop-n4">N4</button>
                 <div class="dropdown-content-n4">
                     <a href="n4-vocabulary-list.html">N4 Vocabulary List</a>
@@ -33,35 +37,45 @@
     </header>
 
     <main>
-        <img src="images/kanji.jpg" alt="Kanji">
+
     </main>
 
     <footer>
-        <!-- Link that directs to the Home Page -->
-        <a href="index.html">
-            <img src="images/everyday-jpn.png" alt="Everyday Japanese">
-        </a>
-        <div class="social">
-            <!-- Facebook -->
-            <a href="facebook.com" target="_blank">
-                <img src="images/fb-icon.png" alt="Facebook Icon">
-            </a>
-            <!-- Instagram -->
-            <a href="instagram.com" target="_blank">
-                <img src="images/instagram-icon.png" alt="Instagram Icon">
-            </a>
-            <!-- Twitter -->
-            <a href="twitter.com" target="_blank">
-                <img src="images/twitter-icon.png" alt="Twitter Icon"> 
-            </a>
+        <div class="col-1">
+            <h3>QUICK LINKS</h3>
+            <a href="n5-grammar-list.html">N5 Grammar List</a>
+            <a href="n5-kanji-list.html">N5 Kanji List</a>
+            <a href="n4-grammar-list.html">N4 Grammar List</a>
+            <a href="n4-kanji-list.html">N4 Kanji List</a>
+            <a href="site-plan.html">Site Plan</a>
         </div>
-
-        <p>Everyday Japanese &copy; 2023 - Amon Reis</p>
-        
-        <a href="index.html#learn-vocabulary">Vocabulary List</a>
-        <a href="index.html#learn-grammar">Grammar List</a>
-        <a href="index.html#learn-kanji">Kanji List</a>
-        <a href="site-plan.html">Site Plan</a>
+        <div class="col-2">
+            <h3>Everyday Japanese &copy; 2023 - Amon Reis</h3>
+            <p>Subscribe for the weekly kanji</p>
+            <form>
+                <input type="email" placeholder="Your Email Address" required>
+                <br>
+                <button type="submit">SUBSCRIBE NOW</button>
+            </form>
+        </div>
+        <div class="col-3">
+            <h3>CONTACT</h3>
+            <div class="social-icons">
+                <!-- Facebook -->
+                <a href="facebook.com" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <!-- Instagram -->
+                <a href="instagram.com" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <!-- Twitter -->
+                <a href="twitter.com" target="_blank">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </div>
+            <i class="fa-solid fa-torii-gate"></i>
+            <p><i>The database system<br>is currently in beta</i></p>        </div>
     </footer>
 </body>
 </html>
