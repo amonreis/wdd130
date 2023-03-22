@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: #d9d9d9;
+    padding: 100px 0 30px;
+    color: #000;
+    font-size: 14px;
+    line-height: 20px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+footer .f-row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+footer .f-row .f-col{
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+footer .f-row .f-col .f-logo {
+    color: #000;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 40px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+footer .f-row .f-col h3{
+    font-size: 1.2em;
+    text-transform: capitalize;
+    position: relative;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+
+footer .f-row .f-col h3::after{
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 30px;
+    height: 8px;
+    background: #d12c23;
+}
+
+footer .f-row .f-col li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+footer .f-row .f-col li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+    transition: .3s;
+}
+
+footer .f-row .f-col li a:hover{
+    color: #d12c23;
+    padding-left: 2px;
+}
+
+footer .f-row .f-col:nth-child(2) {
+    flex-basis: 15%;
+}
+
+footer .f-row .f-col:nth-child(3) li{
+    margin-bottom: 12px;
+    text-transform: capitalize;
+}
+
+footer .f-row .f-col i{
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    margin-left: 8px;
+    cursor: pointer;
+    color: #000;
+    text-align: center;
+    transition: .3s;
+}
+
+footer .f-row .f-col i:hover{
+    border: transparent;
+}
+
+.f-logo{
+    font-weight: 600;
+}
+
+.f-logo span{
+    font-weight: 300;
+}
+
+.p-beta{
+    font-size: 1.1em;
+    margin-bottom: 35px;
+}
+
+.copy{
+    font-size: 1em;
+    margin-top: 25px;
+}
+
+footer .f-row .f-col .fa-facebook-f:hover{
+    background-color: #1d1096;
+    color: #fff;
+}
+
+footer .f-row .f-col .fa-instagram:hover {
+    background-color: #96105c;
+    color: #fff;
+}
+footer .f-row .f-col .fa-twitter:hover {
+    background-color: #108996;
+    color: #fff;
+}
+
+@media(max-width:700px) {
+    footer{
+        position: unset;
+    }
+
+    footer .f-row .f-col{
+        flex-basis: 100%;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    
+}
