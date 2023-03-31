@@ -28,3 +28,158 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
+
+
+function aboutMe() {
+  var x = document.getElementById("about-creator");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
+// Example #1
+function showHideFurigana1() {
+  var x = document.getElementById("furigana-1");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function showHideRomaji1() {
+  var x = document.getElementById("romaji-1");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function showHideEnglish1() {
+  var x = document.getElementById("english-1");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
+// Example #2
+function showHideFurigana2() {
+  var x = document.getElementById("furigana-2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function showHideRomaji2() {
+  var x = document.getElementById("romaji-2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function showHideEnglish2() {
+  var x = document.getElementById("english-2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
+// Example #3
+function showHideFurigana3() {
+  var x = document.getElementById("furigana-3");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function showHideRomaji3() {
+  var x = document.getElementById("romaji-3");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function showHideEnglish3() {
+  var x = document.getElementById("english-3");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
+// Example #4
+function showHideFurigana4() {
+  var x = document.getElementById("furigana-4");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function showHideRomaji4() {
+  var x = document.getElementById("romaji-4");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function showHideEnglish4() {
+  var x = document.getElementById("english-4");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
+// Example #5
+function showHideFurigana5() {
+  var x = document.getElementById("furigana-5");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function showHideRomaji5() {
+  var x = document.getElementById("romaji-5");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function showHideEnglish5() {
+  var x = document.getElementById("english-5");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}

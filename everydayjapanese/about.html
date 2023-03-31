@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Japanese Grammar | N4</title>
+    <title>About</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js"></script>
     <script src="https://kit.fontawesome.com/9fd415c978.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="content">
         <header>
             <div class="menu-container">
-                <input type="checkbox" name="" id="check">
+                <input type="checkbox" name="name" id="check">
+                
                 <div class="logo-container">
                     <h3 class="logo">Everyday<span>日本語</span></h3>
                 </div>
@@ -56,15 +58,21 @@
                                                                 <li class="dropdown-link">
                                                                     <a href="#">BETA</a>
                                                                 </li>
-                                                                <div class="arrow"></div>
+                                                                <li>
+                                                                    <div class="arrow"></div>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </li>
-                                                    <div class="arrow"></div>
+                                                    <li>
+                                                        <div class="arrow"></div>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </li>
-                                        <div class="arrow"></div>
+                                        <li>
+                                            <div class="arrow"></div>
+                                        </li> 
                                     </ul>
                                 </div>
                             </li>
@@ -101,15 +109,21 @@
                                                                 <li class="dropdown-link">
                                                                     <a href="#">BETA</a>
                                                                 </li>
-                                                                <div class="arrow"></div>
+                                                                <li>
+                                                                    <div class="arrow"></div>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </li>
-                                                    <div class="arrow"></div>
+                                                    <li>
+                                                        <div class="arrow"></div>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </li>
-                                        <div class="arrow"></div>
+                                        <li>
+                                            <div class="arrow"></div>
+                                        </li>
                                     </ul>
                                 </div>
                             </li>
@@ -128,8 +142,60 @@
             </div>
         </header>
         <main>
-
-        </main>
+            <div class="about-us">
+                <h1>About Us</h1>
+                <a href="about.html#about-card">About Creator</a>
+            </div>
+            <p class="about-p">About Us</h2>
+            <h2 class="about-h2">We Are Committed To Your Learning By Providing The Resources You Need</h2>
+            <div class="about-row">
+                <div class="about-column">
+                    <h3>
+                        #Our goal is to help you reach your goals
+                    </h3>
+                    <p>
+                        We understand your circumstances and whatever they may be, we are willing to provide the best materials and resources for you to achieve your goals with Japanese. Whatever it is, even studies, work, travel, or even hobbies, Everday Japanese will help you become who you aspire to be.
+                    </p>
+                </div>
+                <div class="about-column">
+                    <h3>
+                        #BETA but not BAD
+                    </h3>
+                    <p>
+                        Although the site is a Beta version and is still under construction, it doesn't mean you can't continue to apply the concepts, grammar, or structures in your everyday interactions. Everyday Japanese is receiving numerous updates every day and will continue to be filled with written and audio-visual examples, with countless different situations where you can apply the concepts learned on the site.
+                    </p>
+                </div>
+            </div>
+            <button class="about-creator-bt" onclick="aboutMe()">About the creator</button>
+            <div id="about-creator">
+                <p><i>My name is Amon and I am the creator of Everyday Japanese, which is a language<br>learning blog and grammar database full of lessons for people studying Japanese.</i></p>
+                <p><i>Some friends call me "Koki" which is short for "Kokimoto", a japanese character from a brazilian tv show.</i></p>
+                <p><i>I lived in Japan in 2019 as a volunteer and have been passionate about the Japanese language since then.</i></p>
+            </div>
+            <div id="about-card">
+                <img src="images/me.jpg" alt="Amon Reis" style="width:100%">
+                <h1>Amon Reis</h1>
+                <p class="card-title">Trilingual<br>Web Development Student</p>
+                <p>BYU - Idaho</p>
+                    <!-- Facebook -->
+                    <a class="about-a" href="facebook.com" target="_blank">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <!-- Instagram -->
+                    <a class="about-a" href="instagram.com" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <!-- Twitter -->
+                    <a class="about-a" href="twitter.com" target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <!-- Linkedin-->
+                    <a class="about-a" href="#" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                <p><button class="about-button">Contact</button></p>
+            </div>
+            </main>
         <footer>
             <div class="f-row">
                 <div class="f-col">
@@ -140,7 +206,7 @@
                     <h3>Quick Links</h3>
                     <ul>
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
+                        <li><a href="#">About</a></li>
                         <li><a href="site-plan.html">Site Plan</a></li>
                     </ul>
                 </div>
@@ -171,6 +237,6 @@
                 </div>
             </div>
         </footer>
-    </div>        
+    </div>
 </body>
 </html>
