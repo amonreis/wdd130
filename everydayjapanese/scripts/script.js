@@ -183,3 +183,32 @@ function showHideEnglish5() {
     x.style.display = "none";
   }
 }
+
+
+// Example #6
+function showHideFurigana6() {
+  var x = document.getElementById("furigana-6");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function showHideRomaji6() {
+  var x = document.getElementById("romaji-6");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function showHideEnglish6() {
+  var x = document.getElementById("english-6");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}

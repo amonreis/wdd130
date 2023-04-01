@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Japanese Grammar | N5</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <title>Japanese Meaning of あなた(anata)</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <script src="../scripts/script.js"></script>
     <script src="https://kit.fontawesome.com/9fd415c978.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="content">
         <header>
             <div class="menu-container">
-                <input type="checkbox" name="" id="check">
+                <input type="checkbox" name="name" id="check">
+                
                 <div class="logo-container">
                     <h3 class="logo">Everyday<span>日本語</span></h3>
                 </div>
@@ -21,20 +23,20 @@
                     <div class="nav-links">
                         <ul>
                             <li class="nav-link" style="--i: .6s">
-                                <a href="index.html">Home</a>
+                                <a href="../index.html">Home</a>
                             </li>
                             <li class="nav-link" style="--i: .85s">
                                 <a href="#">N4 <i class="fas fa-caret-down"></i></a>
                                 <div class="dropdown">
                                     <ul>
                                         <li class="dropdown-link">
-                                            <a href="n4-vocabulary.html">N4 Vocabulary</a>
+                                            <a href="../n4-vocabulary.html">N4 Vocabulary</a>
                                         </li>
                                         <li class="dropdown-link">
-                                            <a href="n4-grammar.html">N4 Grammar</a>
+                                            <a href="../n4-grammar.html">N4 Grammar</a>
                                         </li>
                                         <li class="dropdown-link">
-                                            <a href="n4-kanji.html">N4 Kanji</a>
+                                            <a href="../n4-kanji.html">N4 Kanji</a>
                                         </li>
                                         <li class="dropdown-link">
                                             <a href="#">BETA<i class="fas fa-caret-down"></i></a>
@@ -56,15 +58,21 @@
                                                                 <li class="dropdown-link">
                                                                     <a href="#">BETA</a>
                                                                 </li>
-                                                                <div class="arrow"></div>
+                                                                <li>
+                                                                    <div class="arrow"></div>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </li>
-                                                    <div class="arrow"></div>
+                                                    <li>
+                                                        <div class="arrow"></div>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </li>
-                                        <div class="arrow"></div>
+                                        <li>
+                                            <div class="arrow"></div>
+                                        </li> 
                                     </ul>
                                 </div>
                             </li>
@@ -73,13 +81,13 @@
                                 <div class="dropdown">
                                     <ul>
                                         <li class="dropdown-link">
-                                            <a href="n5-vocabulary.html">N5 Vocabulary</a>
+                                            <a href="../n5-vocabulary.html">N5 Vocabulary</a>
                                         </li>
                                         <li class="dropdown-link">
-                                            <a href="n5-grammar.html">N5 Grammar</a>
+                                            <a href="../n5-grammar.html">N5 Grammar</a>
                                         </li>
                                         <li class="dropdown-link">
-                                            <a href="n5-kanji.html">N5 Kanji</a>
+                                            <a href="../n5-kanji.html">N5 Kanji</a>
                                         </li>
                                         <li class="dropdown-link">
                                             <a href="#">BETA<i class="fas fa-caret-down"></i></a>
@@ -101,20 +109,26 @@
                                                                 <li class="dropdown-link">
                                                                     <a href="#">BETA</a>
                                                                 </li>
-                                                                <div class="arrow"></div>
+                                                                <li>
+                                                                    <div class="arrow"></div>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </li>
-                                                    <div class="arrow"></div>
+                                                    <li>
+                                                        <div class="arrow"></div>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </li>
-                                        <div class="arrow"></div>
+                                        <li>
+                                            <div class="arrow"></div>
+                                        </li>
                                     </ul>
                                 </div>
                             </li>
                             <li class="nav-link" style="--i: 1.35s">
-                                <a href="about.html">About</a>
+                                <a href="../about.html">About</a>
                             </li>
                         </ul>
                     </div>
@@ -128,49 +142,124 @@
             </div>
         </header>
         <main>
-            
+            <h1 class="everyday-jp-h1">JLPT N5 Vocabulary</h1>
+            <h2 class="everyday-jp-h2">あなた (anata)</h2>
+            <h3 class="everyday-jp-h3">Definition: 意味</h3>
+            <p class="everyday-jp-p">you</p>
+
+            <h2 class="everyday-jp-h2">あなた - Example Sentences 例文</h2>
+            <p class="toggle-txt">
+                Each example sentence includes a Japanese furigana reading, the romaji reading, and the English translation.
+                Click the below red button to toggle off and and on all of the hints, and you can click on the buttons individually to show only the ones you want to see.
+            </p>
+
+            <!-- Example #1 -->
+            <h4 class="everyday-jp-h4">Example #1</h4>
+            <p class="p-example"><span class="span-example">あなた</span>はカレンダーに何を書いたの？</p>
+
+            <div class="toggle-buttons">
+                <button class="furigana-bt" onclick="showHideFurigana1()">ふりがな</button>
+
+                <button class="romaji-bt" onclick="showHideRomaji1()">romaji</button>
+
+                <button class="english-bt" onclick="showHideEnglish1()">English</button>
+            </div>
+
+            <div id="furigana-1">
+                <p class="furigana-ex">あなたはカレンダーになにをかいたの？</p>
+            </div>
+            <div id="romaji-1">
+                <p class="romaji-ex">anata wa karendaa ni nani o kaita no?</p>
+            </div>
+            <div id="english-1">
+                <p class="english-ex">What did you write on the calendar?</p>
+            </div>
+
+            <!-- Example #2 -->
+            <h4 class="everyday-jp-h4">Example #2</h4>
+            <p class="p-example"><span class="span-example">あなた</span>のカバンはテーブルの上にありますよ。</p>
+
+            <div class="toggle-buttons">
+                <button class="furigana-bt" onclick="showHideFurigana2()">ふりがな</button>
+
+                <button class="romaji-bt" onclick="showHideRomaji2()">romaji</button>
+
+                <button class="english-bt" onclick="showHideEnglish2()">English</button>
+            </div>
+
+            <div id="furigana-2">
+                <p class="furigana-ex">あなたのカバンはテーブルのうえにありますよ。</p>
+            </div>
+            <div id="romaji-2">
+                <p class="romaji-ex">anata no kaban wa teeburu no ue ni arimasu yo.</p>
+            </div>
+            <div id="english-2">
+                <p class="english-ex">Your bag is on the table.</p>
+            </div>
+
+            <!-- Example #3 -->
+            <h4 class="everyday-jp-h4">Example #3</h4>
+            <p class="p-example"><span class="span-example">あなた</span>はカレーライスを食べたことがありますか？</p>
+
+            <div class="toggle-buttons">
+                <button class="furigana-bt" onclick="showHideFurigana3()">ふりがな</button>
+
+                <button class="romaji-bt" onclick="showHideRomaji3()">romaji</button>
+
+                <button class="english-bt" onclick="showHideEnglish3()">English</button>
+            </div>
+
+            <div id="furigana-3">
+                <p class="furigana-ex">あなたはカレーライスをたべたことがありますか？</p>
+            </div>
+            <div id="romaji-3">
+                <p class="romaji-ex">anata wa karee raisu o tabeta koto ga arimasu ka?</p>
+            </div>
+            <div id="english-3">
+                <p class="english-ex">Have you ever eaten curry and rice before?</p>
+            </div>
         </main>
         <footer>
             <div class="f-row">
                 <div class="f-col">
-                    <a href="index.html" class="f-logo">Everyday<span>Japanese</span></a>
+                    <a href="../index.html" class="f-logo">Everyday<span>Japanese</span></a>
                     <h4 class="copy">Everyday Japanese &copy; 2023 - Amon Reis</h4>
                 </div>
                 <div class="f-col">
                     <h3>Quick Links</h3>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="site-plan.html">Site Plan</a></li>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../about.html">About</a></li>
+                        <li><a href="../site-plan.html">Site Plan</a></li>
                     </ul>
                 </div>
                 <div class="f-col">
                     <h3>JLPT</h3>
                     <ul>
-                        <li><a href="n4-grammar.html">N4 Grammar</a></li>
-                        <li><a href="n5-grammar.html">N5 Grammar</a></li>
-                        <li><a href="n4-kanji.html">N4 Kanji</a></li>
-                        <li><a href="n5-kanji.html">N5 Kanji</a></li>
+                        <li><a href="../n4-grammar.html">N4 Grammar</a></li>
+                        <li><a href="../n5-grammar.html">N5 Grammar</a></li>
+                        <li><a href="../n4-kanji.html">N4 Kanji</a></li>
+                        <li><a href="../n5-kanji.html">N5 Kanji</a></li>
                     </ul>
                 </div>
                 <div class="f-col">
                     <h3>Social</h3>
                     <!-- Facebook -->
-                    <a href="https://www.facebook.com" target="_blank">
+                    <a href="facebook.com" target="_blank">
                         <i class="fa-brands fa-facebook-f"></i>
                     </a>
                     <!-- Instagram -->
-                    <a href="https://www.instagram.com" target="_blank">
+                    <a href="instagram.com" target="_blank">
                         <i class="fa-brands fa-instagram"></i>
                     </a>
                     <!-- Twitter -->
-                    <a href="https://www.twitter.com" target="_blank">
+                    <a href="twitter.com" target="_blank">
                         <i class="fa-brands fa-twitter"></i>
                     </a>
                     <p class="p-beta">The datasystem is currently in beta</p>
                 </div>
             </div>
         </footer>
-    </div>        
+    </div>
 </body>
 </html>

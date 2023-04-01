@@ -674,6 +674,39 @@ footer .f-row .f-col .fa-twitter:hover {
   transition-duration: 0.8s;
 }
 
+/* Newsletter */
+
+form {
+  border: 3px solid #f1f1f1;
+  width: 70%;
+  margin: 50px auto 25px auto;
+}
+
+.form-container {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+.input-text, .input-submit {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.input-submit {
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+}
+
+.input-submit:hover {
+  opacity: 0.8;
+}
+
+
 
 /* N5 VOCABULARY PAGE */
 
