@@ -748,7 +748,7 @@ tr:nth-child(even) {
 }
 
 tr:nth-child(even):hover {
-  background-color: #ff3d3d;
+  background-color: #d12c23;
 }
 
 /*tr:nth-child(odd):hover {
