@@ -708,7 +708,7 @@ form {
 
 
 
-/* N5 VOCABULARY PAGE */
+/* N5/N4 VOCABULARY & GRAMMAR & KANJI PAGE (TABLE LIST) */
 
 .h1-title {
   font-weight: 500;
@@ -729,8 +729,7 @@ form {
   margin: auto 250px;
 }
 
-table {
-  font-family: arial, sans-serif;
+.table {
   border-collapse: collapse;
   width: 75%;
   margin: auto;
@@ -743,17 +742,14 @@ td, th {
   color: #000;
 }
 
-tr:nth-child(even) {
+.tr:nth-child(even) {
   background-color: #dddddd;
 }
 
-tr:nth-child(even):hover {
+.tr:nth-child(even):hover {
   background-color: #d12c23;
 }
 
-/*tr:nth-child(odd):hover {
-  background-color: #2be088;
-}*/
 
 /* STYLING PAGES*/
 
@@ -773,6 +769,7 @@ tr:nth-child(even):hover {
 
 .everyday-jp-h3 {
   margin-bottom: 10px;
+  margin-top: 60px;
   font-size: 24px;
   font-weight: 600;
 }
@@ -801,7 +798,7 @@ tr:nth-child(even):hover {
 .p-example {
   background-color: #dddddd;
   text-align: left;
-  margin: 0 800px 8px 150px;
+  margin: 0 600px 8px 150px;
   padding: 15px;
   font-size: 20px;
 }
@@ -809,7 +806,7 @@ tr:nth-child(even):hover {
 .furigana-ex {
   background-color: #2be08850;
   text-align: left;
-  margin: 0 800px 8px 150px;
+  margin: 0 600px 8px 150px;
   padding: 15px;
   font-size: 16px;
   border-radius: 5px;
@@ -818,7 +815,7 @@ tr:nth-child(even):hover {
 .romaji-ex {
   background-color: #1cc6fa50;
   text-align: left;
-  margin: 0 800px 8px 150px;
+  margin: 0 600px 8px 150px;
   padding: 15px;
   font-size: 16px;
   border-radius: 5px;
@@ -827,11 +824,119 @@ tr:nth-child(even):hover {
 .english-ex {
   background-color: #b068f950;
   text-align: left;
-  margin: 0 800px 8px 150px;
+  margin: 0 600px 8px 150px;
   padding: 15px;
   font-size: 16px;
   border-radius: 5px;
 }
+
+
+/* GRAMMAR */
+
+.table-how-to-use {
+  border-collapse: collapse;
+  width: 60%;
+  margin: 60px auto;
+}
+
+.p-which-to-use {
+  line-height: 2.8;
+  font-size: 18px;
+}
+
+.table-endings {
+  width: 60%;
+  margin: 60px auto;
+  border-collapse: collapse;
+}
+
+.td-endings{
+  border: 1px solid #979797;
+  text-align: center;
+  padding: 8px;
+  line-height: 2.8;
+  font-size: 18px;
+}
+.vocab-list {
+  background-color: #d9d9d9;
+  margin: 80px auto 5px auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-weight: 500;
+  font-size: 20px;
+  width: 75%;
+}
+
+.vocab-list-table {
+  border-collapse: collapse;
+  width: 75%;
+  margin: auto;
+}
+
+.vocab-data {
+  text-align: center;
+}
+
+.vocab-tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.vocab-tr:hover {
+  background-color: #adadad;
+}
+
+.tr-th {
+  background-color: #eb483f;
+  color: #000;
+}
+
+.p-left {
+  margin: 30px 150px 60px 150px;
+  text-align: left;
+  font-size: 17px;
+}
+
+.everyday-jp-h3-left {
+  text-align: left;
+  margin: 80px 150px 80px 150px;
+  font-weight: 500;
+  font-size: 26px;
+}
+
+.block-ex {
+  text-align: left;
+  margin-left: 150px;
+  margin-right: 800px;
+  background-color: #d9d9d9;
+  padding: 15px 0 15px 20px;
+  line-height: 3;
+}
+
+.last-block-ex {
+  text-align: left;
+  margin-left: 150px;
+  margin-right: 800px;
+  background-color: #d9d9d9;
+  padding: 15px 0 15px 20px;
+  line-height: 3;
+  margin-bottom: 80px;
+}
+
+.p-left-romaji {
+  color: #038958;
+  font-size: 16px;
+}
+
+.p-left-english {
+  font-size: 16px;
+  color: #106096;
+}
+
+.p-left-kanji {
+  font-size: 18px;
+}
+
+
 
 
 /* TOGGLE BUTTONS */
@@ -865,6 +970,22 @@ tr:nth-child(even):hover {
   padding: 10px;
   cursor: pointer;
   border: none;
+}
+
+
+.jlpt-img {
+  width: 50%;
+  margin: 50px auto 5px auto;
+}
+
+.warning-message {
+  background-color: #ffff2f;
+  font-size: 30px;
+  margin: 200px 50px 0 50px;
+}
+
+.e404 {
+  width: 30%;
 }
 
 @keyframes animation{

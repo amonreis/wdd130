@@ -212,3 +212,119 @@ function showHideEnglish6() {
     x.style.display = "none";
   }
 }
+
+
+// Example #7
+function showHideFurigana7() {
+  var x = document.getElementById("furigana-7");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function showHideRomaji7() {
+  var x = document.getElementById("romaji-7");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function showHideEnglish7() {
+  var x = document.getElementById("english-7");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
+// Example #8
+function showHideFurigana8() {
+  var x = document.getElementById("furigana-8");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function showHideRomaji8() {
+  var x = document.getElementById("romaji-8");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function showHideEnglish8() {
+  var x = document.getElementById("english-8");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
+// Example #9
+function showHideFurigana9() {
+  var x = document.getElementById("furigana-9");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function showHideRomaji9() {
+  var x = document.getElementById("romaji-9");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function showHideEnglish9() {
+  var x = document.getElementById("english-9");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
+// Example #10
+function showHideFurigana10() {
+  var x = document.getElementById("furigana-10");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function showHideRomaji10() {
+  var x = document.getElementById("romaji-10");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function showHideEnglish10() {
+  var x = document.getElementById("english-10");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
